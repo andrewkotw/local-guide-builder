@@ -1,0 +1,59 @@
+.expected-filename {
+  overflow-wrap: anywhere;
+}
+
+.expected-filename code {
+  display: block;
+  margin-top: .35rem;
+  padding: .55rem .7rem;
+  border-radius: .45rem;
+  background: #fff;
+  color: #17231c;
+  font-family: inherit;
+  font-weight: 750;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.fullscreen-button {
+  border-color: #17653d;
+  color: #174b30;
+}
+
+.preview-panel.fullscreen-preview {
+  position: fixed;
+  inset: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.fullscreen-preview .preview-frame {
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.fullscreen-preview .preview-frame iframe {
+  border-radius: 0;
+}
+
+.fullscreen-preview .preview-toolbar {
+  margin: 0;
+  padding: .65rem 1rem;
+}
+
+@media (max-width: 650px) {
+  .preview-panel.fullscreen-preview {
+    height: 100dvh;
+    padding: 0;
+  }
+}

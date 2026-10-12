@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T01:15:30.784Z",
+  "validGroupCount": 3,
+  "skippedGroupCount": 0,
+  "validGroups": [
+    {
+      "folder": "01-sea-breeze-trail",
+      "schemaVersion": 1,
+      "titleZh": "海風步道",
+      "titleEn": "Sea Breeze Trail",
+      "type": "景點",
+      "groupName": "海風觀察隊",
+      "coverImage": "images/cover.svg",
+      "summary": "沿著海邊散步，觀察潮間帶與港邊風景。"
+    },
+    {
+      "folder": "02-happy-market",
+      "schemaVersion": 1,
+      "titleZh": "幸福市場小吃",
+      "titleEn": "Happy Market Snacks",
+      "type": "美食",
+      "groupName": "美食偵探隊",
+      "coverImage": "images/cover.svg",
+      "summary": "從攤位招牌與香味，認識市場裡的日常滋味。"
+    },
+    {
+      "folder": "03-morning-temple",
+      "schemaVersion": 1,
+      "titleZh": "晨光廟",
+      "titleEn": "Morning Temple",
+      "type": "廟宇",
+      "groupName": "古蹟觀察隊",
+      "coverImage": "images/cover.svg",
+      "summary": "從屋脊剪黏與石雕，讀懂地方信仰的故事。"
+    }
+  ],
+  "skippedGroups": []
+}

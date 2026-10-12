@@ -1,0 +1,11 @@
+.translation-help {
+  padding: 1.1rem;
+  border: 1px solid #a5beaf;
+  border-radius: 12px;
+  background: #f0f8f3;
+  overflow-wrap: anywhere;
+}
+.translation-help h3 { margin: 0 0 .6rem; }
+.translation-help p { line-height: 1.65; }
+.translation-help button { margin: .25rem .5rem .25rem 0; max-width: 100%; white-space: normal; }
+.visit-notes-editor textarea:disabled { color: #435148; background: #edf2ee; }
